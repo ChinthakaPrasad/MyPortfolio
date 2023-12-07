@@ -201,15 +201,30 @@ body {
 
 .portfolio {
     position: absolute;
-    top: 1150px;
+    display: flex;
+    flex-direction: column;
+    top: 1100px;
+    height: 500px;
     padding-left: 150px;
     padding-right: 150px;
+
 }
 
 .logo-02{
+    position: absolute;
     height: 50px;
-    width: auto;
-    display: block;
-    margin: 0 auto;
+    left: 700px;
+
+}
+
+.pos{
+   margin-top: 120px;
+    height: 100px;
+    width: 200px;
+}
+
+.portfolio figcaption{
+    color: aliceblue;
+    text-align: center
 }
 
