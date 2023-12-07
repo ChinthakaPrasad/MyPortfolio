@@ -228,3 +228,43 @@ body {
     text-align: center
 }
 
+/* my contacts */
+.my-contacts{
+    position: absolute;
+    top: 1500px;
+    max-width: 1520px;
+    background-color: #003972;
+    height: 200px;
+
+}
+
+.my-contacts h1{
+    padding: 0 0;
+    margin: 0 0;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #001a35;
+    width: 100%;
+   
+   
+}
+
+.contact-icons:nth-child(n){
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    gap: 80px;
+    margin-top: 50px;
+    justify-content: center;
+    
+    
+}
+
+.my-contacts div{
+    height: 100px;
+    background-color: #003972;
+    
+}
+
