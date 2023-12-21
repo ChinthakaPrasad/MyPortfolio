@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 "/>
     <link rel="icon" type="icon" href="src/favicon.png" />
     <link rel="stylesheet" href="styles.css" />
     <title>MyPortfolio</title>
@@ -14,16 +14,16 @@
       <img id="logo-01" src="src/logo 3.PNG" />
       <ul class="navbar-list">
         <li><a href="#home">Home</a></li>
-        <li><a href="#home">About Me</a></li>
-        <li><a href="#home">PortFolio</a></li>
-        <li><a href="#home">Contact</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#my-portfolio">PortFolio</a></li>
+        <li><a href="#contact-section">Contact</a></li>
         <li><button id="btn-for-cv" type="button">View CV</button></li>
       </ul>
     </div>
 
     <!-- Home -->
 
-    <div class="hero-area">
+    <div id="home" class="hero-area">
       <img id="bg-image" src="src/bgimage.jpg" alt="background" />
       <img id="polygon" src="src/Polygon 2.png" />
       <div class="text-section">
@@ -40,8 +40,8 @@
         </p>
 
         <div class="btn-section">
-          <button type="button">View CV</button>
-          <button type="button">Contact Me</button>
+          <button id="viewCv" type="button">View CV</button>
+          <button id="contactMeBtn" type="button">Contact Me</button>
         </div>
       </div>
       <div class="image-section">
@@ -49,12 +49,13 @@
       </div>
       <div class="rectangle"></div>
     </div>
+    <br><br><hr><hr>
 
     <!-- about me -->
 
-    <div class="about-me">
+    <div id="about" class="about-me">
       <div>
-        <h1>About me</h1>
+        <h1><br>About me</h1>
         <h3>
           Passionate software developer specializing in Java, Spring Boot, and a
           dynamic tech stack including HTML, CSS, JavaScript, Angular, React,
@@ -68,7 +69,7 @@
           stand out in today's rapidly evolving digital landscape.
         </h3>
       </div>
-    </div>
+    
 
     <div class="icon-section">
       <img class="icons" src="src/html.png" alt="html" />
@@ -81,20 +82,28 @@
       <img class="icons" src="src/sql.png" alt="Mysql" />
       <img class="icons" src="src/git.png" alt="git" />
     </div>
+  </div>
 
     <!-- my PortFolio -->
-    <div class="portfolio">
+    <div id="my-portfolio" class="portfolio">
       <img class="logo-02" src="src/logo 2.PNG" alt="logo" />
-      <figure>
-        <img class="pos" src="src/pos.jpg" alt="pos" />
-      </figure>
-      <figcaption>POS System</figcaption>
+      <div class="projects">
+        <figure>
+          <img class="pos" src="src/pos.jpg" alt="pos" />
+          
+        </figure>
+
+        <figcaption>POS System</figcaption>
+        
+
+      </div>
+      
     </div>
 
-    <script src="javascript.js"></script>
+   
 
     <!-- my contacts -->
-    <div class="my-contacts">
+    <div id="contact-section" class="my-contacts">
       <h1>My Social Figures and Contacts</h1>
 
       <div class="contact-icons">
@@ -106,5 +115,7 @@
         <img class="icons" src="src/twitter.png" alt="twitter" />
       </div>
     </div>
+
+    <script src="javascript.js"></script>
   </body>
 </html>
