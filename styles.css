@@ -72,11 +72,6 @@ body {
 
 /* hero area */
 
-.hero-area {
-  /* display: flex; */
-  background-image: url(src/bgimage.jpg);
-  background-size: cover;
-}
 
 .text-section {
   display: flex;
@@ -84,28 +79,26 @@ body {
   justify-content: center;
   padding: 70px;
   float: left;
-  border: 5px solid green;
+  /* border: 5px solid green; */
   width: 60%;
   margin-top: 40px;
   height: 500px;
-  /* position: absolute;  */
-  /* top: 200px;
-  left: 150px;
-  right: 600px; */
+ 
 }
 
 #bg-image{
   position: absolute;
-  top: 100px;
+  top: 40px;
   left: 0%;
   width: 100%;
   height: 600px;
+  opacity: 0.5;
   z-index: -1;
 }
 
 .image-section {
   float: left;
-  border: 5px solid green;
+  /* border: 5px solid green; */
   width: 40%;
   margin-top: 55px;
 }
@@ -237,18 +230,12 @@ body {
 /* about me section */
 
 .about-me {
-  /* position: absolute; */
-  border: 3px solid;
   width: 100%;
   padding: auto;
   display: flex;
   flex-direction: column;
   gap: 50px;
   padding: 50px 50px;
-  /* padding-left: 150px;
-  padding-right: 150px;
-  padding-bottom: 160px;
-  padding-top: 30px; */
   background-color: #001a35;
 }
 
@@ -269,14 +256,9 @@ body {
 }
 
 .icon-section {
-  /* position: absolute;
-  top: 950px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* padding-left: 50px;
-  padding-right: 50px; */
-  border: 3px solid;
   width: 100%;
 }
 
@@ -298,7 +280,7 @@ body {
 /* myportfolio */
 
 .portfolio {
-  border: 3px solid;
+
   top: 1100px;
   height: 500px;
   padding-left: 150px;
@@ -310,15 +292,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid;
   margin: auto;
   height: 50px;
 }
 
 .projects{
-  display: flex;
-  flex-direction: column;
+ 
   padding-top: 50px;
+  width: 100%;
+  float: left;
 
 }
 
@@ -343,6 +325,7 @@ body {
 }
 
 .my-contacts h1 {
+  font-size: 20px;
   padding: 0 0;
   margin: 0 0;
   text-align: center;
